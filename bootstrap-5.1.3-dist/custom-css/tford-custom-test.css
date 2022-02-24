@@ -23,7 +23,7 @@ body {
 }
 
 /*--- This section is for the parallax testing ---*/
-/*--- w3schools - example with pixels ---*/
+/*--- w3schools - example with pixels - very similar to Youtube video method ---*/
 .parallax-header1 {
     /* The image used */
     background-image: url(../images/TFord-Scituate-Home0725-crop3-1600.jpg);
