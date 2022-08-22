@@ -19,13 +19,14 @@ body {
   font-family: Arial, Gotham, "Helvetica Neue", sans-serif;
   background-color: #f7f6f4;
   color: #000;
+  height: 100%;
 }
 
 /*--- This section is for the parallax testing ---*/
 /*--- w3schools - example with pixels - very similar to Youtube video method - https://www.w3schools.com/howto/howto_css_parallax.asp ---*/
 .parallax-header1 {
     /* The image used */
-    background-image: url(../images/TFord-Scituate-Home0725-crop3-1600.jpg);
+    background-image: url(../images/images-home/2022-tford-home-DJI_0092-1600.jpg);
   
     /* Set a specific height */
     min-height: 500px;
@@ -172,19 +173,19 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
     display: block;
     float: none;
     font-size: 24px;
-    width: 270px;
-    height: 75px;
+    width: 400px;
+    height: 105px;
     margin: 0 auto;
 }
 
 .logo-white > a {
-    background: rgba(0, 0, 0, 0) url("../images/tford_logo-rgb-and-white-x260.png") no-repeat scroll 5px -140px;
+    background: rgba(0, 0, 0, 0) url("../images/images-logos/tford-logo-home-id-white.png") no-repeat scroll 5px 5px;
     color: #fff;
     display: block;
     float: none;
     font-size: 24px;
-	width: 270px;
-	height: 75px;
+	width: 400px;
+	height: 105px;
 }
 
 
