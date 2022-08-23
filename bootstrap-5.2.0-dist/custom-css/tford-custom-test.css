@@ -165,26 +165,6 @@ body {
     background-size: cover;
 }
 
-.header-content {
-    padding: 200px 0 250px 0;
-}
-
-.content {
-    margin-top: -50px;
-    background: #fff;
-    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
-}
-
-.content .left, .content .right{
-    padding-top: 20px;
-    float: left;
-}
-
-.content .bottom {
-    background: #dc3545;
-    padding: 20px;
-}
-
 /* -- May not need these classes; still testing -- */
 .parallax-wrap, .parallax-text-below {
     padding-right: calc(var(--bs-gutter-x) * .5);
@@ -364,21 +344,41 @@ a:hover {
 	clear:both;
 }
 
+
+
+.home-header-content {
+    width: 600px;
+    height: 342px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 28px;
+    background-image: url(../images/images-home/speckle-granite.jpg);}
+
+.content {
+    margin-top: -50px;
+    background: #fff;
+    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+}
+
+.content .left, .content .right{
+    padding-top: 20px;
+    float: left;
+}
+
+.content .bottom {
+    background: #dc3545;
+    padding: 20px;
+}
+
 .lead {
-    background-color: #fff;
-    font-size: 16px;
-	margin-top: 23px;
-    margin-left: 52px;
-    width: 420px;
-	height: 150px;
-    opacity: 0.75;
-    padding: 15px;
-	overflow: auto;
+    font-size: 1rem;
+    margin-top: 78px;
 }
 
 .lead-wide {
     background-color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     opacity: 0.75;
     padding: 15px;
 	height: 450px;
