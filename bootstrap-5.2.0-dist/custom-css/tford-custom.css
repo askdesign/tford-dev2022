@@ -24,7 +24,7 @@ body {
 
 /*--- BS root variables - modified for TFord ---*/
 :root {
-    --bs-blue: #38a8e0; /*--- modified ---*/
+    --bs-blue: #2e83af; /*--- modified ---*/
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
@@ -48,9 +48,9 @@ body {
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #0d6efd;
+    --bs-primary: #2e83af; /*--- modified ---*/
     --bs-secondary: #6c757d;
-    --bs-success: #198754;
+    --bs-success: #5ba077; /*--- modified ---*/
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
@@ -111,10 +111,36 @@ body {
     height: 64px;
 }
 
+/*--- The key to allowing the background hover & active color to reach top & bottom of navbar ---*/
 .navbar-nav {
     --bs-nav-link-padding-y: 1.2rem;
 }
 
+/*--- Buttons ---*/
+/*--- check fonts ---*/
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-font-size: 1.625rem;
+}
+
+/*--- needs to be modified to use Tford green - success color ---*/
+
+
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-focus-shadow-rgb: 60,153,110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: #13653f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #198754;
+    --bs-btn-disabled-border-color: #198754;
+}
 
 
 /*--- This section is for the parallax testing ---*/
@@ -345,7 +371,7 @@ a:hover {
 }
 
 
-
+/*--- to do: add margin-top to position lower ---*/
 .home-header-content {
     width: 600px;
     height: 342px;
@@ -353,7 +379,9 @@ a:hover {
     color: #fff;
     text-align: center;
     padding: 28px;
-    background-image: url(../images/images-home/speckle-granite.jpg);}
+    background-image: url(../images/images-home/speckle-granite.jpg);
+    margin-top: 74px
+}
 
 .content {
     margin-top: -50px;
