@@ -165,33 +165,11 @@ body {
 
 /*--- End of w3schools ---*/
 
-/*--- Youtube video 1 ---*/
-.parallax-header3 {
-    background: #000;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.8)
-        ),
-        url(../images/TFord-Scituate-Home0725-crop3-1600.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* -- May not need these classes; still testing -- */
-/* .parallax-wrap, .parallax-text-below {
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
-} */
-
-
-/* -- End of Youtube video 1 --*/
 
 /* -- Webnots method --* /
 /* -- Header Parallax Element Style --*/ 
 .paral {
-    min-height: 600px;
+    min-height: 360px;
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;
@@ -199,15 +177,16 @@ body {
 
 /* -- Images for Parallax Section --*/ 
 .paralsec {
-    background-image: url("https://img.webnots.com/2017/05/parallax.jpg");
+    background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
     }
     
 .paralsec1 {
-    background-image: url("https://img.webnots.com/2017/05/parallax1.jpg");}
+    background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
+}
     
 .paralsec2 {
-    background-image: url("https://img.webnots.com/2015/11/parallax2.jpg");
-    }
+    background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
+}
     
 
 /*-- end of Webnots method --/
@@ -359,6 +338,51 @@ li.nav-item:hover, .nav-link.active,
 	margin-bottom: 5px;
 }
 
+/*--- default = 2.5rem ---*/
+.h1, h1 {
+
+}
+
+/*--- default = 2rem ---*/
+.h2, h2 {
+
+}
+
+/*--- default = 1.75rem ---*/
+.h3, h3 {
+    font-size: 1.5625rem;
+}
+
+/*--- default = 1.5rem ---*/
+.h4, h4 {
+    font-size: 1.25rem;
+}
+
+/*--- default = 1.25rem ---*/
+.h5, h5 {
+    font-size: 1.125rem;
+}
+
+/*--- default = 1rem ---*/
+.h6, h6 {
+
+}
+
+
+h2.home, .h2.home {
+    margin-top: 55px;
+}
+
+
+h3.home, .h3.home {
+    margin-top: 0;
+}
+
+
+h6.home, .h6.home {
+    margin-top: 48px;
+    margin-bottom: 0;
+}
 
 
 .ko {
@@ -379,11 +403,45 @@ a:hover {
     text-decoration: none;
 }
 
-a.overlay-1:hover {
-    background-image: url("images/images-home/BradleyPalmer1-bw-hover.jpg");
+/*--- Recent Projects section ---*/
+.overlay-1 > a {
+    background: rgba(0, 0, 0, 0) url(../images/images-home/BradleyPalmer1-bw.jpg) no-repeat scroll 5px 5px;
+    width: 400px;
+    height: 308px;
+    display: block;
 }
 
-.home {
+.overlay-1 > a:hover {
+    background-image: url("../images/images-home/BradleyPalmer1-bw-hover.jpg");
+}
+
+.overlay-2 > a {
+    background: rgba(0, 0, 0, 0) url(../images/images-home/sudbury3-bw.jpg) no-repeat scroll 5px 5px;
+    width: 400px;
+    height: 308px;
+    display: block;
+}
+
+.overlay-2 > a:hover {
+    background-image: url("../images/images-home/sudbury3-bw-hover.jpg");
+}
+
+.overlay-3 > a {
+    background: rgba(0, 0, 0, 0) url(../images/images-home/forgepond3-bw.jpg) no-repeat scroll 5px 5px;
+    width: 400px;
+    height: 308px;
+    display: block;
+}
+
+.overlay-3 > a:hover {
+    background-image: url("../images/images-home/forgepond3-bw-hover.jpg");
+}
+
+.full-width-band {
+    min-height: 600px;
+}
+
+.home-bkg-old {
   background-image: url("../images/TFord-Scituate-Home0725-crop3-1600.jpg");
   background-repeat: no-repeat;
   background-size: cover;
