@@ -221,61 +221,61 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
   overflow: auto !important;
 }
 
-/*--- color variables to classes for text ---*/
-.blue {
+/*--- color variables to classes for text-color | use txt to differentiate from BS SCSS text variables ---*/
+.txt-blue {
     color: var(--bs-blue);    
 }
 
-.orange {
+.txt-orange {
     color: var(--bs-orange);    
 }
 
-.yellow {
+.txt-yellow {
     color: var(--bs-yellow);    
 }
 
-.brown {
+.txt-brown {
     color: var(--bs-brown);    
 }
 
-.green {
+.txt-green {
     color: var(--bs-green);    
 }
 
-.primary {
+.txt-primary {
     color: var(--bs-primary);    
 }
 
-.success {
+.txt-success {
     color: var(--bs-success);    
 }
 
 /*--- color variables to classes for bkg ---*/
-.blue-bkg {
+.bg-blue {
     background-color: var(--bs-blue);    
 }
 
-.orange-bkg {
+.bg-orange {
     background-color: var(--bs-orange);    
 }
 
-.yellow-bkg {
+.bg-yellow {
     background-color: var(--bs-yellow);    
 }
 
-.brown-bkg {
+.bg-brown {
     background-color: var(--bs-brown);        
 }
 
-.green-bkg {
+.bg-green {
     background-color: var(--bs-green);    
 }
 
-.primary-bkg {
+.bg-primary {
     background-color: var(--bs-primary);    
 }
 
-.success-bkg {
+.bg-success {
     background-color: var(--bs-success);    
 }
 
@@ -379,6 +379,10 @@ a:hover {
     text-decoration: none;
 }
 
+a.overlay-1:hover {
+    background-image: url("images/images-home/BradleyPalmer1-bw-hover.jpg");
+}
+
 .home {
   background-image: url("../images/TFord-Scituate-Home0725-crop3-1600.jpg");
   background-repeat: no-repeat;
@@ -440,8 +444,8 @@ a:hover {
 
 .content {
     /* margin-top: -50px; */
-    background-color: var(--bs-white);    
-    box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2);
+    background-color: transparent;    
+    /* box-shadow: 0 0 20px -6px rgba(0, 0, 0, 0.2); */
 }
 
 .content .left, .content .right{
