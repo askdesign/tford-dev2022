@@ -137,14 +137,6 @@ body {
 }
 
 
-.nav-justified .nav-item, .nav-justified>.nav-link {
-    flex-basis: 0;
-    flex-grow: 1;
-    text-align: left;
-}
-
-
-
 /*--- Buttons ---*/
 .btn {
     --bs-btn-font-size: 1.125rem;
@@ -390,11 +382,21 @@ li.nav-item:hover, .nav-link.active,
 
 .nav-pills .nav-link {
     font-size: var(--bs-nav-pills-link-font-size);
+    padding-left: 0.25rem;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
+    padding-left: 0.25rem;
 }
+
+.nav-justified .nav-item, .nav-justified>.nav-link {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 0.25rem;
+}
+
 
 /* @media (min-width: 992px) {
   
