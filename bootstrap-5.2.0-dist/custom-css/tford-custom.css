@@ -36,6 +36,7 @@ body {
     --bs-dark-rgb: 200, 138, 18; /*--- modified ---*/
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
+    --bs-gray: #76797c; /*--- modified ---*/
     --bs-body-color-rgb: 0, 0, 0; /*--- modified ---*/
     --bs-body-bg-rgb: 255, 255, 255;
     --bs-font-sans-serif: system-ui, -apple-system, 'Fira Sans', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -78,6 +79,23 @@ body {
     --bs-navbar-nav-link-padding-x: 1.75rem;
     height: 64px;
     border-bottom: 1px #b5470e solid; /*--- bs-orange ---*/
+}
+
+.site-footer {
+    --bs-navbar-color: #000;
+    --bs-navbar-hover-color: #fff;
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    --bs-navbar-nav-link-padding-x: 1.75rem;
+    height: 64px;
+    text-align: center;
+}
+
+.site-footer p {
+    padding-top: 1.2rem;
 }
 
 /*--- The key to allowing the background hover & active color to reach top & bottom of navbar ---*/
@@ -296,6 +314,10 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
     color: var(--bs-success);    
 }
 
+.txt-grey {
+    color: var(--bs-gray);
+}
+
 /*--- color variables to classes for bkg ---*/
 .bg-blue {
     background-color: var(--bs-blue);    
@@ -323,6 +345,10 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
 
 .bg-success {
     background-color: var(--bs-success);    
+}
+
+.bg-grey {
+    background-color: var(--bs-gray);
 }
 
 
@@ -532,8 +558,20 @@ a:hover {
 
 .full-width-band-short {
     min-height: 360px;
-    padding-top: 20px;
+    padding-top: 25px;
 }
+
+.full-width-band-before-footer {
+    min-height: 180px;
+    padding-top: 50px;
+    border-top: 1px solid #000;
+}
+
+.before-footer {
+    border-right: 1px solid #000;
+}
+
+
 
 .home-bkg-old {
   background-image: url("../images/TFord-Scituate-Home0725-crop3-1600.jpg");
@@ -596,6 +634,10 @@ a:hover {
 
 .home-cta2 {
     margin-top: 24px;
+    text-align: center;
+}
+
+.home-search {
     text-align: center;
 }
 
