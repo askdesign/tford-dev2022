@@ -1,5 +1,5 @@
 /* 
-Custom CSS Test - for TFord
+Custom CSS - for TFord
 Author: Anne S. Katzeff 
 Author URL: https://www.askdesign.biz 
 Twitter: @askdesign2
@@ -7,9 +7,12 @@ Twitter: @askdesign2
 Template: Bootstrap 5.2
 */
 
-/*--- Bootstrap 5.2 --- */
+/*--- Bootstrap 5.2 ---*/
 /*--- $font-size-base: 1rem; // Assumes the browser default, typically `16px` --- */
 
+/*--- fonts and icons ---*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 html, body {
   height: 100%;
@@ -518,15 +521,16 @@ a:hover {
 }
 
 /*--- Recent Projects section ---*/
+
 .overlay-1 > a {
-    background: rgba(0, 0, 0, 0) url(../images/images-home/BradleyPalmer1-bw.jpg) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images/images-home/forgepond3-bw.jpg) no-repeat scroll 5px 5px;
     width: 400px;
     height: 308px;
     display: block;
 }
 
 .overlay-1 > a:hover {
-    background-image: url("../images/images-home/BradleyPalmer1-bw-hover.jpg");
+    background-image: url("../images/images-home/forgepond3-bw-hover.jpg");
 }
 
 .overlay-2 > a {
@@ -541,29 +545,30 @@ a:hover {
 }
 
 .overlay-3 > a {
-    background: rgba(0, 0, 0, 0) url(../images/images-home/forgepond3-bw.jpg) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images/images-home/BradleyPalmer1-bw.jpg) no-repeat scroll 5px 5px;
     width: 400px;
     height: 308px;
     display: block;
 }
 
 .overlay-3 > a:hover {
-    background-image: url("../images/images-home/forgepond3-bw-hover.jpg");
+    background-image: url("../images/images-home/BradleyPalmer1-bw-hover.jpg");
 }
 
 .full-width-band {
     min-height: 600px;
-    padding-top: 50px;
+}
+
+.full-width-band-hd {
+    margin-top: -35px;
 }
 
 .full-width-band-short {
     min-height: 360px;
-    padding-top: 25px;
 }
 
 .full-width-band-before-footer {
     min-height: 180px;
-    padding-top: 50px;
     border-top: 1px solid #000;
 }
 
@@ -615,7 +620,6 @@ a:hover {
 	clear:both;
 }
 
-
 .home-header-content {
     width: 600px;
     height: 342px;
@@ -634,10 +638,6 @@ a:hover {
 
 .home-cta2 {
     margin-top: 24px;
-    text-align: center;
-}
-
-.home-search {
     text-align: center;
 }
 
@@ -671,6 +671,10 @@ a:hover {
 	overflow: auto;
 }
 
+/*--- Search bar ---*/
+.form-control {
+    font-size: .75rem;
+}
 
 .col-top { /*--- First entry in a column - to align with H2 on left side ---*/
     margin-top: 15px;
