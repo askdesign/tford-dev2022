@@ -421,16 +421,6 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
 	padding-right: 52px;
 }
 
-.logo > a {
-    background: rgba(0, 0, 0, 0) url("../images/tford_logo-rgb-and-white-x260.png") no-repeat scroll 5px 5px;
-    color: var(--bs-white);    
-    display: block;
-    float: none;
-    font-size: 24px;
-	width: 270px;
-	height: 75px;
-}
-
 .logo-rgb {
     background: rgba(0, 0, 0, 0) url("../images/tford_logo-rgb-and-white-x260.png") no-repeat scroll 5px 5px;
     color: var(--bs-white);    
@@ -629,6 +619,9 @@ a:hover {
     border-right: 1px solid #000;
 }
 
+.project-profiles-images {
+    height: 642px;
+}
 
 
 .home-bkg-old {
