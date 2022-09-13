@@ -22,15 +22,18 @@
   <body>
     <!-- center nav bar at top -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-lg">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/images-logos/tford_logo-white-198x52.png" alt="tford logo white" height="46">
+          </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
     
           <div class="collapse navbar-collapse justify-content-md-center" id="main-nav-home" aria-label="breadcrumb">
             <ul class="navbar-nav breadcrumb">
-              <li class="breadcrumb-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+              <li class="breadcrumb-item">
+                <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li class="breadcrumb-item">
                 <a class="nav-link" href="#">Our Company</a>
@@ -41,7 +44,7 @@
                <li class="breadcrumb-item dropdown">
                 <a class="nav-link active dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Project Profiles</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item active" href="#">Dams</a></li>
+                  <li><a class="dropdown-item active" aria-current="page" href="#">Dams</a></li>
                   <li><a class="dropdown-item" href="#">Dredging</a></li>
                   <li><a class="dropdown-item" href="#">Environmental/Brownfields</a></li>
                   <li><a class="dropdown-item" href="#">Former MGP Sites</a></li>
@@ -69,36 +72,68 @@
     
 
     <!--  w3schools - example very similar to Youtube video method -->
-    <header class="">
+    <header class="page-header">
         <!-- Container -->
-        <div class="container">
+        <div class="container-lg">
             <!-- header content -->
-            <div class="home-header-content">
-                <div class="logo-white">
-                    <a href="index.html"></a>
-                </div>
-                <p class="lead">T Ford Company, Inc. (TFCI) is a Massachusetts based general contractor with specific expertise in civil construction; specifically environmental remediation, solar and battery installations, dam replacement/removal, site work, utilities, concrete foundations, and industrial buildings.</p>
-              </div>
-              <div class="home-cta1">
-                <a class="btn btn-success btn-lg" href="capabilities.php" role="button">LEARN MORE!</a>
-              </div>
-        </div>
-        <!-- End of Container -->
+            <div class="row d-flex align-items-center">
+              <div class="col-md-2 left">
+                <h5>PROJECT PROFILES &emsp;&ensp;></h5>
+              </div><!-- PROJECT PROFILES subhd breadcrumb-->
+              <div class="col-md-4 left">
+                <h3 class="project-profiles-breadcrumb-subhd">DAMS</h3>
+              </div><!-- PROJECT PROFILES subhd ID breadcrumb-->
+            </div><!-- end of row -->
+        </div><!-- End of Container -->
     </header>
 
+        <!-- Secondary Nav - Project Profiles -->
+    <section class="container-lg mt-3">
+          <div class="row">
+            <div class="col-md-2 left">
+              <h5 class="text-white mt-2"></h5>          
+            </div><!-- end of column-->
+            
+            <!-- nav pills-->
+            <!-- TO DO: create a class for these nav links -->
+            <div class="col-md-10 left"><!-- navigation area follows -->
+              <ul class="nav nav-pills nav-justified">
+              <li class="nav-item-pp ms-0">
+                <a class="nav-link active" aria-current="page" href="#">Forge Pond — Emergency Dam Breaching</a>
+              </li>
+              <li class="nav-item-pp">
+                <a class="nav-link" href="#">GH Nichols Dam Repairs</a>
+              </li>
+              <li class="nav-item-pp">
+                <a class="nav-link" href="#">Massachusetts Water Resources Authority</a>
+              </li>
+            </ul>
+          </div><!-- end of wide col-->
+        </div><!-- end of row-->
+
+        <div class="row mt-1">
+          <div class="col-md-10 offset-md-2 left"><!-- navigation area follows -->
+            <ul class="nav nav-pills nav-justified">
+            <li class="nav-item-pp ms-0">
+              <a class="nav-link" href="#">Paradise Pond Dam Rehabilitation</a>
+            </li>
+            <li class="nav-item-pp">
+              <a class="nav-link" href="#">Simonds Pond Dam Reconstruction</a>
+            </li>
+            <li class="nav-item-pp">
+              <a class="nav-link" href="#">Upper Artichoke Dam Repairs</a>
+            </li>
+          </ul>
+          </div><!-- end of wide col-->
+
+          </div><!-- end of row-->
+    </section><!-- end of container-lg -->
+
     <section class="container-lg">
-        <div class="row">
-          <div class="col-md-2 left">
-            <h5>PROJECT PROFILES &emsp;&ensp;></h5>
-          </div><!-- PROJECT PROFILES subhd breadcrumb-->
-          <div class="col-md-4 left">
-            <h3 class="project-profiles-breadcrumb-subhd">DAMS   76797c regular</h3>
-          </div><!-- PROJECT PROFILES subhd ID breadcrumb-->
-        </div><!-- end of row -->
 
         <div class="row">
           <!-- Subhd -->
-              <h2 class="txt-yellow">Forge Pond — Emergency Dam Breaching </h2>
+              <h2 class="pp-hd">Forge Pond — Emergency Dam Breaching </h2>
         </div><!-- end of row -->
 
         <div class="row project-profiles-images">
@@ -121,68 +156,6 @@
 
         </div><!-- row profile-profile-images -->
     </section>
-
-    <!-- Additional sections -->
-    <!-- https://www.webnots.com/how-to-create-full-width-parallax-page-with-bootstrap/ -->
-
-    <!-- First Parallax Section Done Differently - Webnots.com -->
-    <section class="container-fluid">
-        <div class="content row">
-            <div class="jumbotron paral paralsec">
-              <div class="container-lg">
-                <div class="row">
-                  <div class="col-md-2 left">
-                    <h5 class="text-white">PROJECT PROFILES</h1>          
-                  </div><!-- end of column-->
-                  
-                  <!-- nav pills-->
-                  <!-- TO DO: create a class for these nav links -->
-                  <div class="col-md-10 left"><!-- navigation area follows -->
-                    <ul class="nav nav-pills-home nav-justified">
-                    <li class="nav-item bg-dark">
-                      <a class="nav-link active" aria-current="page" href="#">Dams</a>
-                    </li>
-                    <li class="nav-item bg-dark">
-                      <a class="nav-link" href="#">Dredging</a>
-                    </li>
-                    <li class="nav-item bg-dark">
-                      <a class="nav-link" href="#">Environmental / Brownfields</a>
-                    </li>
-                    <li class="nav-item bg-dark">
-                      <a class="nav-link" href="#">Former MPG Sites</a>
-                    </li>
-                    <li class="nav-item bg-dark">
-                      <a class="nav-link" href="#">Industrial Buildings</a>
-                    </li>
-                  </ul>
-                </div><!-- end of wide col-->
-
-                <div class="col-md-10 offset-md-2 left"><!-- navigation area follows -->
-                  <ul class="nav nav-pills-home nav-justified">
-                  <li class="nav-item bg-dark">
-                    <a class="nav-link" href="#">Landfills</a>
-                  </li>
-                  <li class="nav-item bg-dark">
-                    <a class="nav-link" href="#">Seawalls</a>
-                  </li>
-                  <li class="nav-item bg-dark">
-                    <a class="nav-link" href="#">Solar</a>
-                  </li>
-                  <li class="nav-item bg-dark">
-                    <a class="nav-link" href="#">Specialty</a>
-                  </li>
-                  <li class="nav-item bg-dark">
-                    <a class="nav-link" href="#">Waterside / Wetlands</a>
-                  </li>
-                </ul>
-                </div><!-- end of wide col-->
-
-                </div><!-- end of row-->
-                </div><!-- end of container-lg -->
-
-            </div><!-- end of jumbotron-->
-        </div><!-- end of content row-->
-    </section><!-- end of parallax section 1-->
  
     <section class="container-fluid">
       <div class="content row">
