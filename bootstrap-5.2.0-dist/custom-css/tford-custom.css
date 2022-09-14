@@ -281,6 +281,15 @@ body {
     --bs-btn-disabled-border-color: #0d6efd;
 }
 
+/*--- Dividers ---*/
+hr {
+    margin: 1rem 0 2.5rem;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .125;
+}
+
 /*--- This section is for the parallax testing ---*/
 /*--- w3schools - example with pixels - very similar to Youtube video method - https://www.w3schools.com/howto/howto_css_parallax.asp ---*/
 .parallax-header1 {
@@ -535,12 +544,15 @@ li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
 }
 
 
-.project-profiles-breadcrumb-subhd {
+.project-profiles-breadcrumb-subhd,
+.pg-subhd {
     font-family: var(--bs-font-sans-serif);
     color: var(--bs-gray);    
-
 }
 
+.sans {
+    font-family: var(--bs-font-sans-serif);
+}
 
 /* @media (min-width: 992px) {
   
@@ -591,7 +603,8 @@ h2.home, .h2.home {
     margin-bottom: 40px
 }
 
-h2.pp-hd, .h2-pp-hd {
+h2.pp-hd, .h2-pp-hd,
+h2.pg-hd, .h2-pg-hd {
     margin-top: 42px;
     color: var(--bs-orange);
 }
