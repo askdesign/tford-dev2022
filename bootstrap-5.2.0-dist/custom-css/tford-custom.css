@@ -534,7 +534,7 @@ li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
     background-color: #fff;
 }
 
-.nav-justified .nav-item-pp:hover, .nav-justified>.nav-link {
+.nav-justified .nav-item-pp.active, .nav-justified .nav-item-pp:hover, .nav-justified>.nav-link {
     flex-basis: 0;
     flex-grow: 1;
     text-align: left;
@@ -693,6 +693,12 @@ a:hover {
     height: 642px;
 }
 
+.project-profiles-images-short {
+    height: 312px;
+    overflow: hidden;
+}
+
+
 
 .home-bkg-old {
   background-image: url("../images/TFord-Scituate-Home0725-crop3-1600.jpg");
@@ -835,7 +841,18 @@ a:hover {
 
 
 @media only screen and (max-width: 640px) {
-
+    .project-profiles-images {
+        height: auto;
+    }
+    
+    .project-profiles-images-short {
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .pp-images-widecol {
+        margin-top: 1rem;
+    }
 }
 
 @media only screen and (max-width: 533px) {
