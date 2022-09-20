@@ -534,6 +534,16 @@ li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
     background-color: #fff;
 }
 
+.nav-justified .nav-item-pp-x, .nav-justified>.nav-link {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 0.25rem;
+    border: 0px solid var(--bs-gray);
+    background-color: #fff;
+}
+
+
 .nav-justified .nav-item-pp.active, .nav-justified .nav-item-pp:hover, .nav-justified>.nav-link {
     flex-basis: 0;
     flex-grow: 1;
