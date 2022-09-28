@@ -557,7 +557,8 @@ li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
 .project-profiles-breadcrumb-subhd,
 .pg-subhd {
     font-family: var(--bs-font-sans-serif);
-    color: var(--bs-gray);    
+    color: var(--bs-gray);
+    font-size: 1.5625rem;
 }
 
 .sans {
@@ -577,9 +578,9 @@ li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
 	margin-bottom: 5px; */
 }
 
-/*--- default = 2.5rem ---*/
+/*--- default = 2.5rem | changed to match H2 ---*/
 .h1, h1 {
-
+    font-size: 2rem;
 }
 
 /*--- default = 2rem ---*/
@@ -607,12 +608,19 @@ li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
 
 }
 
-
+h1.home, .h1.home,
 h2.home, .h2.home {
     margin-top: 52px;
     margin-bottom: 40px
 }
 
+
+h1.pg-title, .h1-pg-title {
+    font-size: 1.125rem;
+}
+
+h1.pp-hd, .h1-pp-hd,
+h1.pg-hd, .h1-pg-hd,
 h2.pp-hd, .h2-pp-hd,
 h2.pg-hd, .h2-pg-hd {
     margin-top: 42px;
