@@ -348,7 +348,14 @@ hr {
 .paralsec2 {
     background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
 }
-    
+
+/* -- Images for Hero Section --*/ 
+
+.hero-capabilities {
+    background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*-- end of Webnots method --/
 
@@ -707,6 +714,15 @@ a:hover {
     border-right: 1px solid #000;
 }
 
+/* --- probably don't need this; cloned from previous stylessheet; may need adjustments --- */
+.footer-sticky {
+    bottom: 0;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
 .project-profiles-images {
     height: 642px;
 }
@@ -717,20 +733,8 @@ a:hover {
 }
 
 
-
-.home-bkg-old {
-  background-image: url("../images/TFord-Scituate-Home0725-crop3-1600.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* -- background-position: center -205px; NOTE: for MWRA-2 home image -- */
-  background-position: 0 0;
-}
-
-
 .capabilities {
-  background-image: url("../images/MWRA-5-Capabilities-cropped-1600.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    min-height: 800px;
 }
 
 .inner {
@@ -805,10 +809,8 @@ a:hover {
 
 .lead-wide {
     background-color: #fff;
-    font-size: 1rem;
     opacity: 0.75;
     padding: 15px;
-	height: 450px;
 	overflow: auto;
 }
 
