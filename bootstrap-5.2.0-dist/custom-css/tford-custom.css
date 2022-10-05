@@ -131,6 +131,7 @@ body {
     border-radius: var(--bs-breadcrumb-border-radius);
 }
 
+/*--- breadcrumb on left side of box ---*/
 .breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: var(--bs-breadcrumb-item-padding-x);
@@ -141,14 +142,21 @@ body {
     /*--- adjust space to center breadcrumb better --*/
 }
 
+/*--- breadcrumb on left side of active box ---*/
+.breadcrumb-item.active::before {
+    color: var(--bs-breadcrumb-divider-active-color);
+}
+
+/*--- breadcrumb on right side of active box ---*/
 .active.breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: var(--bs-breadcrumb-item-padding-x);
     color: var(--bs-breadcrumb-divider-active-color);
-    content: var(--bs-breadcrumb-divider, "");
+    content: var(--bs-breadcrumb-divider, "|");
     padding-top: 1.2rem;
-    margin-left: -0.125rem;
+    margin-left: -0.25rem;
 }
+
 
 /*--- Dropdown Main Nav ---*/
 .dropdown-menu {
