@@ -333,8 +333,8 @@ hr {
 /*--- End of w3schools ---*/
 
 
-/* -- Webnots method --* /
-/* -- Header Parallax Element Style --*/ 
+/*--- Webnots method ---* /
+/*--- Header Parallax Element Style ---*/ 
 .paral {
     min-height: 360px;
     background-attachment: fixed;
@@ -344,7 +344,7 @@ hr {
     padding-bottom: 50px;
     }
 
-/* -- Images for Parallax Section --*/ 
+/*--- Images for Parallax Section ---*/ 
 .paralsec {
     background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
     }
@@ -357,7 +357,7 @@ hr {
     background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
 }
 
-/* -- Images for Hero Section --*/ 
+/*--- Images for Hero Section ---*/ 
 
 .hero-capabilities {
     background-image: url(../images/images-home/2022-tford-home-MWRA-5-Capabilities-1600.jpg);
@@ -365,9 +365,9 @@ hr {
     background-size: cover;
 }
 
-/*-- end of Webnots method --/
+/*--- end of Webnots method ---/
 
-/* -- End of section for the parallax testing --*/
+/*--- End of section for the parallax testing ---*/
 
 
 /*--- ASK - hack to fix bug with fixed menu when scrollbar appears ---*/
@@ -722,7 +722,7 @@ a:hover {
     border-right: 1px solid #000;
 }
 
-/* --- probably don't need this; cloned from previous stylessheet; may need adjustments --- */
+/*--- probably don't need this; cloned from previous stylessheet; may need adjustments ---*/
 .footer-sticky {
     bottom: 0;
     height: 80px;
@@ -840,8 +840,8 @@ a:hover {
 
 
 
-/* --- MEDIA QUERIES - ASK Design --- */
-/* --- Bootstrap default 1170 ------------------- */
+/*--- MEDIA QUERIES - ASK Design ---*/
+/*--- Bootstrap default 1170 -------*/
 @media only screen and (max-width: 1440px) {
 	
 	
@@ -888,35 +888,35 @@ a:hover {
 	
 }
 
-/* --- iPhone 6/7 Plus --- */
+/*--- iPhone 6/7 Plus ---*/
 @media only screen and (max-width: 414px) {
 
 
 	
 }
 
-/* --- iPhone 6/7 --- */
+/*--- iPhone 6/7 ---*/
 @media only screen and (max-width: 375px) {
 
 
 	
 }
 
-/* --- Samsung Galaxy --- */
+/*--- Samsung Galaxy ---*/
 @media only screen and (max-width: 360px) {
 
 
 	
 }
 
-/* --- iPhone 5, 4, 3, Samsung Galaxy S2, Blackberry --- */
+/*--- iPhone 5, 4, 3, Samsung Galaxy S2, Blackberry ---*/
 @media only screen and (max-width: 320px) {
 
 	
 }
 
 
-/* --- Motorola RAZR v8 --- */
+/*--- Motorola RAZR v8 ---*/
 @media only screen and (max-width: 240px) {
 
 
