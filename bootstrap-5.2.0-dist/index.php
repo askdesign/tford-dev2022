@@ -237,8 +237,8 @@
               <div class="home-cta2">
                 <a class="btn btn-primary" href="careers.html" role="button">CONTACT US</a>
               </div><!-- end of cta -->
-              
             </div><!-- end of right col -->
+
           </div><!-- end of row -->
 
         </div><!-- end of container -->     
