@@ -457,7 +457,7 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
 }
 
 .logo-rgb {
-    background: rgba(0, 0, 0, 0) url("../images/tford_logo-rgb-and-white-x260.png") no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images-logo/tford_logo-rgb-and-white-x260.png) no-repeat scroll 5px 5px;
     color: var(--bs-white);    
     display: block;
     float: none;
@@ -470,7 +470,7 @@ body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
 /*--- white logo ---*/
 .logo-white {
     color: var(--bs-white);    
-    background-color: transparent;
+    background: rgba(0, 0, 0, 0) url(../images/images-logos/tford_logo-white-home-397x103.png) no-repeat scroll 5px 5px;    
     display: block;
     float: none;
     font-size: 24px;
