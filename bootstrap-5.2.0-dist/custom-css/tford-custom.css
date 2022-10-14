@@ -837,7 +837,7 @@ a:hover {
 
 
 /*--- MEDIA QUERIES - ASK Design ---*/
-/*--- Bootstrap default 1170 -------*/
+/*--- Bootstrap default max width is 1320px for browser widths 1400px and above ---*/
 
 /*--- This needs attention ---*/
 @media (min-width: 1400px) {
@@ -847,8 +847,12 @@ a:hover {
 }
 
 
-
+/*--- xxl ---*/
 @media only screen and (max-width: 1400px) {
+    .full-width-band-hd {
+        margin-top: 35px;
+    }
+
     .pp-left, .pp-right {
         float: none;
         margin: 0 auto;
@@ -861,21 +865,21 @@ a:hover {
 	
 }
 
-
-@media only screen and (max-width: 1170px) {	
+/*--- xl ---*/
+@media only screen and (max-width: 1200px) {	
 	
 
 	
 }
 
-
-@media only screen and (max-width: 960px) {
+/*--- lg ---*/
+@media only screen and (max-width: 992px) {
 
 	
 }
 
-
-@media only screen and (max-width: 800px) {
+/*--- md ---*/
+@media only screen and (max-width: 768px) {
 	
 
 	
@@ -897,7 +901,8 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 533px) {
+/*--- sm ---*/
+@media only screen and (max-width: 576px) {
 	
 	
 }
