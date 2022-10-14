@@ -369,13 +369,6 @@ hr {
 
 /*--- End of section for the parallax testing ---*/
 
-
-/*--- ASK - hack to fix bug with fixed menu when scrollbar appears ---*/
-body, .modal-body, .navbar-fixed-bottom, navmenu-fixed-right {
-  padding-left: 0 !important;
-  overflow: auto !important;
-}
-
 /*--- color variables to classes for text-color | use txt to differentiate from BS SCSS text variables ---*/
 .txt-blue {
     color: var(--bs-blue);    
@@ -842,6 +835,22 @@ a:hover {
 
 /*--- MEDIA QUERIES - ASK Design ---*/
 /*--- Bootstrap default 1170 -------*/
+
+/*--- This needs attention ---*/
+/* @media (min-width: 1400px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto !important;
+    }
+}
+ */
+
+
 @media only screen and (max-width: 1440px) {
 	
 	
