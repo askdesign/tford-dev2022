@@ -94,14 +94,14 @@
             <div class="container-lg">
               <h2 class="txt-yellow full-width-band-hd">Recent Projects</h2>
             <!-- Left Side -->
-            <div class="col-md-4 left">
+            <div class="col-xxl-4 pp-left">
               <h6 class="text-white home">Dams</h6>            
               <h3 class="text-white">Forge Pond </h3>
                   <div class="overlay-1"><a href="project-profiles/dams-forgepond.html"></a>
                   </div>
             </div>
           <!-- End of Left Side -->
-          <div class="col-md-4 left">
+          <div class="col-xxl-4 left">
             <h6 class="text-white home">Solar</h6>            
             <h3 class="text-white">Sudbury Landfill Solar Installation </h3>
             <div class="overlay-2"><a href="project-profiles/solar-sudbury.html"></a>
@@ -109,7 +109,7 @@
           </div>
         <!-- End of Middle -->
       <!-- Right Side -->
-            <div class="col-md-4 right">
+            <div class="col-xxl-4 right">
               <h6 class="text-white home">Waterside / Wetlands</h6>            
               <h3 class="text-white">Bradley Palmer</h3>
               <div class="overlay-3"><a href="project-profiles/waterwetlands-bradleypalmer.html"></a>
