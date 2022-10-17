@@ -101,7 +101,7 @@
                   </div>
             </div>
           <!-- End of Left Side -->
-          <div class="col-xxl-4 left">
+          <div class="col-xxl-4 pp-left">
             <h6 class="text-white home">Solar</h6>            
             <h3 class="text-white">Sudbury Landfill Solar Installation </h3>
             <div class="overlay-2"><a href="project-profiles/solar-sudbury.html"></a>
@@ -109,7 +109,7 @@
           </div>
         <!-- End of Middle -->
       <!-- Right Side -->
-            <div class="col-xxl-4 right">
+            <div class="col-xxl-4 pp-right">
               <h6 class="text-white home">Waterside / Wetlands</h6>            
               <h3 class="text-white">Bradley Palmer</h3>
               <div class="overlay-3"><a href="project-profiles/waterwetlands-bradleypalmer.html"></a>

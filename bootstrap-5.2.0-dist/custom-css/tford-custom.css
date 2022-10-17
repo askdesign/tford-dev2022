@@ -115,7 +115,7 @@ body {
     --bs-breadcrumb-padding-x: 0;
     --bs-breadcrumb-padding-y: 0;
     --bs-breadcrumb-margin-bottom: 0;
-    --bs-breadcrumb-bg: ;
+    --bs-breadcrumb-bg: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
     --bs-breadcrumb-border-radius: ;
     --bs-breadcrumb-divider-color: #000;
     --bs-breadcrumb-divider-active-color: #b5470e;
@@ -488,7 +488,6 @@ hr {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
-
 li.nav-item:hover, .nav-link.active, .nav-link:focus, .nav-link:hover {
     background-color: var(--bs-orange);
 }
@@ -842,13 +841,29 @@ a:hover {
 /*--- This needs attention ---*/
 @media (min-width: 1400px) {
 
-
-
 }
 
 
 /*--- xxl ---*/
 @media only screen and (max-width: 1400px) {
+    .nav-link {
+        padding-left: 1em;
+    }
+
+/*--- breadcrumbs should not display on hamburger dropdown ---*/
+/*--- breadcrumb on left side of box ---*/
+.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, "");
+}
+
+/*--- breadcrumb on right side of active box ---*/
+.active.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, "");
+}
+
+
+/*--- end of breadcrumbs ---*/
+
     .full-width-band-hd {
         margin-top: 35px;
     }
