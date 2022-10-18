@@ -852,6 +852,15 @@ a:hover {
     padding-left: 1em;
 }
 
+.navbar-collapse {
+    margin-top: 4px;
+}
+
+/*--- logo ---*/
+.navbar-brand {
+    padding-top: 0.5px;
+}
+
 /*--- breadcrumbs should not display on hamburger dropdown ---*/
 /*--- breadcrumb on left side of box ---*/
 .breadcrumb-item+.breadcrumb-item::before {
@@ -865,10 +874,6 @@ a:hover {
 
 /*--- end of breadcrumbs ---*/
 
-/*--- logo ---*/
-.navbar-brand {
-    padding-top: 0.5px;
-}
 
 /*--- Recent Projects --- */
 .full-width-band {
