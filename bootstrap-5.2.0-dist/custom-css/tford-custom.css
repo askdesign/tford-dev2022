@@ -846,9 +846,11 @@ a:hover {
 
 /*--- xxl ---*/
 @media only screen and (max-width: 1400px) {
-    .nav-link {
-        padding-left: 1em;
-    }
+
+/*--- navigation ---*/
+.nav-link {
+    padding-left: 1em;
+}
 
 /*--- breadcrumbs should not display on hamburger dropdown ---*/
 /*--- breadcrumb on left side of box ---*/
@@ -861,17 +863,22 @@ a:hover {
     content: var(--bs-breadcrumb-divider, "");
 }
 
-
 /*--- end of breadcrumbs ---*/
 
-    .full-width-band-hd {
-        margin-top: 35px;
-    }
+/*--- logo ---*/
+.navbar-brand {
+    padding-top: 0.5px;
+}
 
-    .pp-left, .pp-right {
-        float: none;
-        margin: 0 auto;
-    }	
+/*--- Recent Projects --- */
+.full-width-band {
+    min-height: 1400px;
+}
+
+.pp-left, .pp-right {
+    float: none;
+       margin: 0 auto;
+}	
 	
 }
 
