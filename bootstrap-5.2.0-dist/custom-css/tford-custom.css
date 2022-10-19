@@ -727,12 +727,7 @@ a:hover {
 }
 
 .project-profiles-images {
-    height: 642px;
-}
-
-.project-profiles-images-short {
-    height: 312px;
-    overflow: hidden;
+    max-height: 642px;
 }
 
 
@@ -894,38 +889,38 @@ a:hover {
 
 /*--- xl ---*/
 @media only screen and (max-width: 1200px) {	
-	
+.project-profiles-images {
+    max-height: 560px;
+}	
 
 	
 }
 
 /*--- lg ---*/
 @media only screen and (max-width: 992px) {
+.project-profiles-images {
+    max-height: 460px;
+}
 
-	
 }
 
 /*--- md ---*/
 @media only screen and (max-width: 768px) {
-	
+.project-profiles-images {
+    max-height: 1560px;
+}
+
+.pp-images-widecol {
+    margin-top: 1rem;
+}	
 
 	
 }
 
 
 @media only screen and (max-width: 640px) {
-    .project-profiles-images {
-        height: auto;
-    }
     
-    .project-profiles-images-short {
-        height: auto;
-        overflow: hidden;
-    }
-    
-    .pp-images-widecol {
-        margin-top: 1rem;
-    }
+
 }
 
 /*--- sm ---*/
