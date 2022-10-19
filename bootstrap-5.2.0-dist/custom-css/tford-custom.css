@@ -919,7 +919,14 @@ a:hover {
 
 
 @media only screen and (max-width: 640px) {
-    
+
+.full-width-band-before-footer {
+    min-height: 250px;
+}
+
+.before-footer {
+    border-right: 0px solid #000;
+}
 
 }
 
@@ -938,7 +945,9 @@ a:hover {
 
 /*--- iPhone 6/7 ---*/
 @media only screen and (max-width: 375px) {
-
+.full-width-band-before-footer {
+    min-height: 280px;
+}
 
 	
 }
@@ -959,7 +968,9 @@ a:hover {
 
 /*--- Motorola RAZR v8 ---*/
 @media only screen and (max-width: 240px) {
-
+.full-width-band-before-footer {
+    min-height: 350px;
+}
 
 	
 }
