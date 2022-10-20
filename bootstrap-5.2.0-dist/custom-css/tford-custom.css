@@ -771,6 +771,7 @@ a:hover {
     text-align: center;
     padding: 28px;
     background-image: url(../images/images-home/speckle-granite.jpg);
+    background-repeat: no-repeat;
     margin-top: 74px
 }
 
@@ -898,6 +899,14 @@ a:hover {
 
 /*--- lg ---*/
 @media only screen and (max-width: 992px) {
+.parallax-header1 {
+    min-height: 768px;
+}
+
+.full-width-band-short {
+    min-height: 460px;
+}
+    
 .project-profiles-images {
     max-height: 460px;
 }
@@ -919,6 +928,27 @@ a:hover {
 
 
 @media only screen and (max-width: 640px) {
+.home-header-content {
+    width: 80%;
+    height: 80%;
+    margin-top: 74px;
+}
+
+.logo-white {
+    width: 80%;
+    height: 80px;
+    background-size: 80%;
+    background-position: center 0;
+}
+
+.lead {
+    font-size: .9rem;
+    margin-top: 38px;
+}
+
+.full-width-band-short {
+     min-height: 560px;
+}
 
 .full-width-band-before-footer {
     min-height: 250px;
@@ -944,7 +974,7 @@ a:hover {
 @media only screen and (max-width: 414px) {
 
 .site-footer {
-        height: 76px;
+    height: 76px;
 }
 
 	
