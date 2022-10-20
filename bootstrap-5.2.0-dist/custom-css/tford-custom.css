@@ -928,6 +928,10 @@ a:hover {
     border-right: 0px solid #000;
 }
 
+.site-footer p {
+    font-size: .8rem;
+}
+
 }
 
 /*--- sm ---*/
@@ -939,6 +943,9 @@ a:hover {
 /*--- iPhone 6/7 Plus ---*/
 @media only screen and (max-width: 414px) {
 
+.site-footer {
+        height: 76px;
+}
 
 	
 }
