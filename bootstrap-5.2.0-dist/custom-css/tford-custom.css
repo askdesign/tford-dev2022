@@ -728,6 +728,11 @@ a:hover {
     max-height: 642px;
 }
 
+/*-- no longer used, but may be useful later ---*/
+.pp-images-widecol {
+
+}
+
 
 .capabilities {
     min-height: 800px;
@@ -816,13 +821,10 @@ a:hover {
     font-size: .75rem;
 }
 
-.col-top { /*--- First entry in a column - to align with H2 on left side ---*/
-    margin-top: 15px;
-}
-
 .image-p-top {
     margin-top: -4px;
 }
+
 .fill-bottom { /*--- add extra space to take up full browser window ---*/
     margin-bottom: 165px;
 }
@@ -913,6 +915,7 @@ a:hover {
 }
 
 /*--- md ---*/
+
 @media only screen and (max-width: 768px) {
 
 .nav-pills-home .nav-link {
@@ -924,12 +927,8 @@ a:hover {
 }
 
 .project-profiles-images {
-    max-height: 1560px;
+    max-height: 1600px;
 }
-
-.pp-images-widecol {
-    margin-top: 1rem;
-}	
 
 .h3, h3, .project-profiles-breadcrumb-subhd, .pg-subhd {
     font-size: 1.25rem;
@@ -945,6 +944,10 @@ a:hover {
 
 .btn {
     --bs-btn-font-size: 1rem;
+}
+
+.col-top { /*--- First entry in a column - to align with H2 on left side ---*/
+    margin-top: 1rem;
 }
 
 }
