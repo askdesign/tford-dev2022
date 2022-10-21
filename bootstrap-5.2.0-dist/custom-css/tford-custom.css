@@ -450,7 +450,7 @@ hr {
 }
 
 .logo-rgb {
-    background: rgba(0, 0, 0, 0) url(../images-logo/tford_logo-rgb-and-white-x260.png) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images-logo/tford_logo-rgb-and-white-x260.png) no-repeat scroll center 0px;
     color: var(--bs-white);    
     display: block;
     float: none;
@@ -463,7 +463,7 @@ hr {
 /*--- white logo ---*/
 .logo-white {
     color: var(--bs-white);    
-    background: rgba(0, 0, 0, 0) url(../images/images-logos/tford_logo-white-home-397x103.png) no-repeat scroll 5px 5px;    
+    background: rgba(0, 0, 0, 0) url(../images/images-logos/tford_logo-white-home-397x103.png) no-repeat scroll center 0px;    
     display: block;
     float: none;
     font-size: 24px;
@@ -473,7 +473,7 @@ hr {
 }
 
 .logo-white > a {
-    background: rgba(0, 0, 0, 0) url(../images/images-logos/tford_logo-white-home-397x103.png) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images/images-logos/tford_logo-white-home-397x103.png) no-repeat scroll center 0;
     color: var(--bs-white);
     display: block;
     float: none;
@@ -646,14 +646,12 @@ h6.home, .h6.home {
 }
 
 a {
-    color: #794400;
     color: var(--bs-brown);    
 
     text-decoration: none;
 }
 
 a:hover {
-    color: #c88a12;
     color: var(--bs-gold);    
     text-decoration: none;
 }
@@ -904,7 +902,7 @@ a:hover {
 }
 
 .full-width-band-short {
-    min-height: 460px;
+    min-height: 410px;
 }
     
 .project-profiles-images {
@@ -915,6 +913,15 @@ a:hover {
 
 /*--- md ---*/
 @media only screen and (max-width: 768px) {
+
+.nav-pills-home .nav-link {
+    font-size: .75rem;
+}
+
+.full-width-band-short {
+    min-height: 440px;
+}
+
 .project-profiles-images {
     max-height: 1560px;
 }
@@ -931,14 +938,13 @@ a:hover {
 .home-header-content {
     width: 80%;
     height: 80%;
-    margin-top: 74px;
+    margin-top: 54px;
 }
 
 .logo-white {
     width: 80%;
     height: 80px;
     background-size: 80%;
-    background-position: center 0;
 }
 
 .lead {
@@ -946,8 +952,16 @@ a:hover {
     margin-top: 38px;
 }
 
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-font-size: 1.25rem;
+}
+
+.btn {
+    --bs-btn-font-size: 1rem;
+}
+
 .full-width-band-short {
-     min-height: 560px;
+     min-height: 500px;
 }
 
 .full-width-band-before-footer {
@@ -966,12 +980,44 @@ a:hover {
 
 /*--- sm ---*/
 @media only screen and (max-width: 576px) {
-	
+.parallax-header1 {
+    min-height: 568px;
+    background-attachment: scroll;
+    }
+    
+.paral {
+    min-height: 300px;
+    background-attachment: scroll;
+}
 	
 }
 
 /*--- iPhone 6/7 Plus ---*/
 @media only screen and (max-width: 414px) {
+.parallax-header1 {
+    min-height: 500px;
+}
+    
+.home-header-content {
+    margin-top: 24px;
+}
+
+.logo-white {
+    height: 60px;
+}
+
+.lead {
+    margin-top: 28px;
+}
+
+.paral {
+    min-height: 200px;
+    padding-top: 20px;
+}
+
+.full-width-band-short {
+    min-height: 600px;
+}
 
 .site-footer {
     height: 76px;
