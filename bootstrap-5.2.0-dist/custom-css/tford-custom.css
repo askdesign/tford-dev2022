@@ -662,7 +662,7 @@ a:hover {
 }
 
 .overlay-1 > a {
-    background: rgba(0, 0, 0, 0) url(../images/images-home/forgepond3-bw.jpg) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images/images-home/forgepond3-bw.jpg) no-repeat scroll 0 0;
     width: 400px;
     height: 308px;
     display: block;
@@ -673,7 +673,7 @@ a:hover {
 }
 
 .overlay-2 > a {
-    background: rgba(0, 0, 0, 0) url(../images/images-home/sudbury3-bw.jpg) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images/images-home/sudbury3-bw.jpg) no-repeat scroll 0 0;
     width: 400px;
     height: 308px;
     display: block;
@@ -684,7 +684,7 @@ a:hover {
 }
 
 .overlay-3 > a {
-    background: rgba(0, 0, 0, 0) url(../images/images-home/BradleyPalmer1-bw.jpg) no-repeat scroll 5px 5px;
+    background: rgba(0, 0, 0, 0) url(../images/images-home/BradleyPalmer1-bw.jpg) no-repeat scroll 0 0;
     width: 400px;
     height: 308px;
     display: block;
@@ -848,6 +848,7 @@ a:hover {
 
 .navbar-collapse {
     margin-top: 4px;
+    z-index: 1; /*--- to display above divs with opacity ---*/
 }
 
 /*--- logo ---*/
@@ -930,7 +931,22 @@ a:hover {
     margin-top: 1rem;
 }	
 
-	
+.h3, h3, .project-profiles-breadcrumb-subhd, .pg-subhd {
+    font-size: 1.25rem;
+}
+
+.h5, h5 {
+    font-size: .9375rem;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-font-size: 1.25rem;
+}
+
+.btn {
+    --bs-btn-font-size: 1rem;
+}
+
 }
 
 
@@ -950,14 +966,6 @@ a:hover {
 .lead {
     font-size: .9rem;
     margin-top: 38px;
-}
-
-.btn-group-lg>.btn, .btn-lg {
-    --bs-btn-font-size: 1.25rem;
-}
-
-.btn {
-    --bs-btn-font-size: 1rem;
 }
 
 .full-width-band-short {
@@ -1013,21 +1021,55 @@ a:hover {
 .paral {
     min-height: 200px;
     padding-top: 20px;
+    background-position: 0% 50%;
 }
 
 .full-width-band-short {
     min-height: 600px;
 }
 
-.site-footer {
-    height: 76px;
+.nav-justified .nav-item-home, .nav-justified>.nav-link {
+    flex-basis: 100%;
+    flex-grow: 1;
 }
 
+.nav-pills-home .nav-link {
+    font-size: var(--bs-nav-pills-link-font-size);
+}
+
+.nav-pills-home {
+    margin-bottom: -0.25rem!important;
+}
+
+.site-footer {
+    height: 76px;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
 	
 }
 
 /*--- iPhone 6/7 ---*/
 @media only screen and (max-width: 375px) {
+.parallax-header1 {
+    min-height: 468px;
+}
+    
+.home-header-content {
+    margin-top: 4px;
+}
+
+.full-width-band {
+    min-height: 1220px;
+}
+
+.overlay-1 > a, .overlay-2 > a, .overlay-3 > a {
+    width: 320px;
+    height: 246px;
+}
+
 .full-width-band-before-footer {
     min-height: 280px;
 }
@@ -1037,20 +1079,71 @@ a:hover {
 
 /*--- Samsung Galaxy ---*/
 @media only screen and (max-width: 360px) {
+.parallax-header1 {
+    min-height: 440px;
+    background-position: center -15px;
+}
 
+.home-header-content {
+    padding: 18px;
+}
 
-	
+.logo-white {
+    height: 40px;
+}
+
+.full-width-band-short {
+    min-height: 650px;
+}
+
 }
 
 /*--- iPhone 5, 4, 3, Samsung Galaxy S2, Blackberry ---*/
 @media only screen and (max-width: 320px) {
 
-	
+.parallax-header1 {
+    min-height: 470px;
+    background-position: center 0;
+}
+
+.full-width-band-short {
+    min-height: 700px;
+}
+
+.full-width-band-before-footer {
+    min-height: 320px;
+}
+
 }
 
 
 /*--- Motorola RAZR v8 ---*/
 @media only screen and (max-width: 240px) {
+.navbar-brand {
+    max-width: 50%;
+}
+
+.navbar-brand-logo-height {
+    height: 34px;
+}
+
+.parallax-header1 {
+    min-height: 360px;
+}
+    
+.home-header-content {
+    padding: 10px;
+}
+
+.logo-white {
+    display: none;
+}
+
+.lead {
+    margin-top: 0;
+    font-size: .75rem;
+}
+
 .full-width-band-before-footer {
     min-height: 350px;
 }
