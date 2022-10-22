@@ -728,11 +728,6 @@ a:hover {
     max-height: 642px;
 }
 
-/*-- no longer used, but may be useful later ---*/
-.pp-images-widecol {
-
-}
-
 
 .capabilities {
     min-height: 800px;
@@ -946,9 +941,6 @@ a:hover {
     --bs-btn-font-size: 1rem;
 }
 
-.col-top { /*--- First entry in a column - to align with H2 on left side ---*/
-    margin-top: 1rem;
-}
 
 }
 
@@ -985,6 +977,14 @@ a:hover {
 
 .site-footer p {
     font-size: .8rem;
+}
+
+.pp-images-widecol {
+    margin-top: 1rem;
+}
+
+.col-top { /*--- First entry in a column - to align with H2 on left side ---*/
+    margin-top: 1rem;
 }
 
 }
