@@ -811,6 +811,11 @@ a:hover {
 	overflow: auto;
 }
 
+/*--- mt5 and mt2 combined for wide column on about page ---*/
+.about-wide {
+    margin-top: 3.5rem;
+}
+
 /*--- Search bar ---*/
 .form-control {
     font-size: .75rem;
@@ -941,6 +946,9 @@ a:hover {
     --bs-btn-font-size: 1rem;
 }
 
+.about-wide {
+    margin-top: 2.75rem;
+}
 
 }
 
@@ -982,9 +990,12 @@ a:hover {
 .pp-images-widecol {
     margin-top: 1rem;
 }
+.about-wide-first {
+    margin-top: 2rem;
+}
 
-.col-top { /*--- First entry in a column - to align with H2 on left side ---*/
-    margin-top: 1rem;
+.about-wide {
+    margin-top: 2rem;
 }
 
 }
@@ -1147,9 +1158,16 @@ a:hover {
     font-size: .75rem;
 }
 
+.full-width-band-short {
+    min-height: 900px;
+}
+
 .full-width-band-before-footer {
     min-height: 350px;
 }
 
+.site-footer {
+    height: 96px;
+}
 	
 }
