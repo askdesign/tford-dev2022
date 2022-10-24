@@ -79,7 +79,7 @@
             <div class="home-header-content">
                 <div class="logo-white">
                 </div>
-                <p class="lead">T Ford Company, Inc. (TFCI) is a Massachusetts based general contractor with specific expertise in civil construction; specifically environmental remediation, solar and battery installations, dam replacement/removal, site work, utilities, concrete foundations, and industrial buildings.</p>
+                <p class="lead">T Ford Company, Inc. (TFCI) is a Massachusetts based general contractor with specific expertise in civil construction; specifically environmental remediation, solar and battery installations, dam replacement/removal, site work, utilities, concrete foundations, and industrial buildings.</p>
               </div>
               <div class="home-cta1">
                 <a class="btn btn-success btn-lg" href="capabilities.html" role="button">LEARN MORE!</a>
