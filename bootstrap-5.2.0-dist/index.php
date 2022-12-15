@@ -23,7 +23,7 @@
     <!-- center nav bar at top -->
     <nav class="navbar navbar-expand-xxl navbar-dark bg-dark" aria-label="Tenth navbar example">
         <div class="container-lg">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#/">
             <img src="images/images-logos/tford_logo-white-198x52.png" alt="tford logo white" height="46" class="navbar-brand-logo-height">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@
           <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08" aria-label="breadcrumb">
             <ul class="navbar-nav breadcrumb">
               <li class="breadcrumb-item active">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#/">Home</a>
               </li>
               <li class="breadcrumb-item">
                 <a class="nav-link" href="about.html">Our Company</a>
